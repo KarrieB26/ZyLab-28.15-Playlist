@@ -3,3 +3,16 @@
 //Jordan Bridges 
 
 #include "PlaylistNode.h"
+void ExecuteMenu(char option, const string& title, Playlist& list);
+void PrintMenu(string title);
+
+
+int main(){
+   string plTitle;
+   cout << "Enter playlist's title:\n";
+   getline(cin, plTitle);
+   
+   PrintMenu(plTitle);
+   
+}
+
